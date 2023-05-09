@@ -8,7 +8,7 @@ long_description = (this_dir / "README.md").read_text()
 setup_info = dict(
     name='pyboil',
     python_requires=">=3.10",
-    version='0.5.0',
+    version='1.0.0',
     description='CLI script to initialize python packages',
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -22,7 +22,7 @@ setup_info = dict(
     include_package_data=True,
     entry_points={
             'console_scripts': [
-                'pyboil = pyboil:pyboil',
+                'pyboil = pyboil.pyboil:launch',
             ]
         },
     install_requires=[],

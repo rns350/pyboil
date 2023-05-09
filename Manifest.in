@@ -1,3 +1,0 @@
-include pyinit/template/base/build.sh
-include pyinit/template/base/pyproject.toml
-include pyinit/template/base/setup.py
