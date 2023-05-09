@@ -1,7 +1,7 @@
-from pyinit.parser import parser
+from pyboil.parser import parser
 import shutil
 
-def pyinit():
+def pyboil():
     args = parser.parse_args()
 
     shutil.copytree("template", '.')

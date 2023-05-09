@@ -6,7 +6,7 @@ this_dir = Path(__file__).parent
 long_description = (this_dir / "README.md").read_text()
 
 setup_info = dict(
-    name='pyinit',
+    name='pyboil',
     python_requires=">=3.10",
     version='0.5.0',
     description='CLI script to initialize python packages',
@@ -17,12 +17,12 @@ setup_info = dict(
     url='https://github.com/rns350/pyinit',
     packages=find_packages(
         where='.', 
-        include=['pyinit*']
+        include=['pyboil*']
     ),
     include_package_data=True,
     entry_points={
             'console_scripts': [
-                'pyinit = pyinit:pyinit',
+                'pyboil = pyboil:pyboil',
             ]
         },
     install_requires=[],

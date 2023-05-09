@@ -1,7 +1,7 @@
 import argparse
 
 parser = argparse.ArgumentParser(
-                    prog='Pyinit',
+                    prog='Pyboil',
                     description='Initialize a basic python wheel package setup via cli script',
                     epilog='Get started fast!')
 
